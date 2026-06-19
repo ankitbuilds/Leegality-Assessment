@@ -39,7 +39,7 @@ const ProductDetailPage = () => {
           {/* Back Button */}
           <button
             onClick={() => navigate(-1)}
-            className="px-4 py-2 border rounded mb-6 hover:bg-gray-100"
+            className="px-4 py-2 border border-gray-300 rounded mb-6 hover:bg-gray-100"
           >
             ← Back
           </button>
@@ -93,7 +93,7 @@ const ProductDetailPage = () => {
                 </p>
               </div>
 
-              <hr className="my-8" />
+              <hr className="my-8 border-gray-300" />
 
               {/* Description */}
               <div>
@@ -106,7 +106,7 @@ const ProductDetailPage = () => {
                 </p>
               </div>
 
-              <hr className="my-8" />
+              <hr className="my-8 border-gray-300" />
 
               {/* Reviews */}
               <div>

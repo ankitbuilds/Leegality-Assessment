@@ -18,7 +18,7 @@ const Pagination = ({
       {[...Array(totalPages)].map((_, i) => (
         <button
           key={i}
-          className={`px-3 py-1 border ${
+          className={`px-3 py-1 border border-gray-300 ${
             currentPage === i + 1
               ? "bg-blue-500 text-white"
               : ""

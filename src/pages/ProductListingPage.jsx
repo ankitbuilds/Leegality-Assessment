@@ -124,7 +124,7 @@ const ProductListingPage = () => {
         <div className="flex">
 
           {/* Sidebar */}
-          <aside className="w-64 border-r bg-white p-4">
+          <aside className="w-64 border-r border-gray-300 bg-white p-4">
 
             <Filters
               categories={categories}

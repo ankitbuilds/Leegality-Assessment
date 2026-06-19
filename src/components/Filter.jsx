@@ -34,7 +34,7 @@ const Filters = ({
         </h3>
 
         <select
-          className="border p-2 w-full"
+          className="border border-gray-300 p-2 w-full"
           value={filters.category}
           onChange={(e) =>
             setFilters({
@@ -66,7 +66,7 @@ const Filters = ({
         <input
           type="number"
           placeholder="Min"
-          className="border p-2 w-full mb-2"
+          className="border border-gray-300 p-2 w-full mb-2"
           value={filters.minPrice}
           onChange={(e) =>
             setFilters({
@@ -79,7 +79,7 @@ const Filters = ({
         <input
           type="number"
           placeholder="Max"
-          className="border p-2 w-full"
+          className="border border-gray-300 p-2 w-full"
           value={filters.maxPrice}
           onChange={(e) =>
             setFilters({
